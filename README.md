@@ -4,7 +4,7 @@ One project, three lanes: Data Analyst (Excel/Power BI) -> Data Engineer
 (Python ETL -> SQLite) -> SysAdmin/Cloud (cron + GCP, later).
 
 It recreates the real monthly reporting workflow from the NYC Bureau of
-Chronic Disease Prevention (Stellar Farmers Markets / PEARS) using mock data
+Chronic Disease Prevention  using mock data
 shaped exactly like the real export.
 
 ## What's in this folder
