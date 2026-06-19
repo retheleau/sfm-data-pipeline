@@ -29,3 +29,10 @@ Then open practice_queries.sql and type the queries by hand.
 
 Phases in order. One phase at a time. A finished Phase 1 beats four
 started phases. The guide has the full path.
+
+## Live Dashboard
+
+🔗 **[View the live dashboard](https://randy-sfm-dashboard.streamlit.app)**
+
+Built with Streamlit, reading live from sfm.db.
+
