@@ -1,0 +1,133 @@
+session_id,program_id,start_date,is_virtual,num_participants,num_surveys,survey_language,ebt_wic_usage,site_name,borough
+1533001,414400,07/01/2024,1,8,5,English,,Bronx Borough Hall,Bronx
+1533002,414401,07/01/2024,0,13,11,English,EBT/SNAP,Corona Plaza,Queens
+1533003,414402,07/01/2024,1,9,6,Spanish,,Cypress Hills Youthmarket,Brooklyn
+1533004,414403,07/01/2024,0,21,17,English,EBT/SNAP,Gouverneur Hospital,Manhattan
+1533005,414404,07/01/2024,0,12,7,Bengali,EBT/SNAP,La Familia,Bronx
+1533006,414405,07/01/2024,0,12,11,English,,Myrtle Wyckoff Greenmarket,Brooklyn
+1533007,414406,07/01/2024,0,21,15,English,,Jackson Heights Greenmarket,Queens
+1533008,414407,07/01/2024,0,17,15,English,WIC,Grand Army Plaza,Brooklyn
+1533009,414409,07/01/2024,0,11,8,Spanish,,St. Mary's Park,Bronx
+1533010,414410,07/01/2024,0,16,15,Simplified Chinese,,Sunset Park,Brooklyn
+1533011,414411,07/01/2024,0,11,9,English,WIC,Tremont,Bronx
+1533012,414412,07/01/2024,0,11,10,Spanish,EBT/SNAP,Astoria Greenmarket,Queens
+1533013,414400,07/08/2024,0,15,11,English,EBT/SNAP,Bronx Borough Hall,Bronx
+1533014,414401,07/08/2024,0,4,3,English,,Corona Plaza,Queens
+1533015,414403,07/08/2024,1,1,0,Spanish,,Gouverneur Hospital,Manhattan
+1533016,414404,07/08/2024,0,11,8,Simplified Chinese,EBT/SNAP,La Familia,Bronx
+1533017,414405,07/08/2024,1,1,0,Spanish,,Myrtle Wyckoff Greenmarket,Brooklyn
+1533018,414406,07/08/2024,0,15,12,English,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533019,414407,07/08/2024,1,1,0,English,,Grand Army Plaza,Brooklyn
+1533020,414408,07/08/2024,0,6,4,English,EBT/SNAP,Harlem Meer,Manhattan
+1533021,414409,07/08/2024,0,21,14,Spanish,,St. Mary's Park,Bronx
+1533022,414410,07/08/2024,1,4,3,Bengali,,Sunset Park,Brooklyn
+1533023,414411,07/08/2024,0,14,9,English,,Tremont,Bronx
+1533024,414401,07/15/2024,0,6,3,Simplified Chinese,WIC,Corona Plaza,Queens
+1533025,414403,07/15/2024,0,11,8,English,,Gouverneur Hospital,Manhattan
+1533026,414404,07/15/2024,0,14,8,English,WIC,La Familia,Bronx
+1533027,414405,07/15/2024,0,8,6,English,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533028,414408,07/15/2024,1,7,5,Traditional Chinese,,Harlem Meer,Manhattan
+1533029,414409,07/15/2024,0,10,8,Traditional Chinese,EBT/SNAP,St. Mary's Park,Bronx
+1533030,414410,07/15/2024,0,12,10,English,EBT/SNAP,Sunset Park,Brooklyn
+1533031,414411,07/15/2024,0,10,7,Spanish,EBT/SNAP,Tremont,Bronx
+1533032,414412,07/15/2024,1,15,12,English,,Astoria Greenmarket,Queens
+1533033,414400,07/22/2024,1,5,3,Spanish,,Bronx Borough Hall,Bronx
+1533034,414401,07/22/2024,0,8,6,Spanish,EBT/SNAP,Corona Plaza,Queens
+1533035,414402,07/22/2024,0,18,13,English,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533036,414403,07/22/2024,0,7,6,English,,Gouverneur Hospital,Manhattan
+1533037,414404,07/22/2024,0,15,13,English,EBT/SNAP,La Familia,Bronx
+1533038,414405,07/22/2024,0,4,2,English,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533039,414407,07/22/2024,0,7,6,English,,Grand Army Plaza,Brooklyn
+1533040,414411,07/22/2024,0,14,9,English,,Tremont,Bronx
+1533041,414412,07/22/2024,1,9,6,Simplified Chinese,,Astoria Greenmarket,Queens
+1533042,414401,07/29/2024,0,14,11,Bengali,EBT/SNAP,Corona Plaza,Queens
+1533043,414402,07/29/2024,0,13,12,Spanish,,Cypress Hills Youthmarket,Brooklyn
+1533044,414403,07/29/2024,1,4,3,Spanish,,Gouverneur Hospital,Manhattan
+1533045,414405,07/29/2024,0,6,3,English,,Myrtle Wyckoff Greenmarket,Brooklyn
+1533046,414406,07/29/2024,0,10,6,Simplified Chinese,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533047,414407,07/29/2024,1,3,1,Spanish,,Grand Army Plaza,Brooklyn
+1533048,414408,07/29/2024,0,19,13,Spanish,WIC,Harlem Meer,Manhattan
+1533049,414409,07/29/2024,0,15,12,English,WIC,St. Mary's Park,Bronx
+1533050,414412,07/29/2024,0,5,3,English,EBT/SNAP,Astoria Greenmarket,Queens
+1533051,414400,08/05/2024,1,7,5,English,,Bronx Borough Hall,Bronx
+1533052,414401,08/05/2024,0,12,9,Spanish,WIC,Corona Plaza,Queens
+1533053,414402,08/05/2024,0,10,8,English,WIC,Cypress Hills Youthmarket,Brooklyn
+1533054,414404,08/05/2024,0,17,11,Simplified Chinese,EBT/SNAP,La Familia,Bronx
+1533055,414405,08/05/2024,0,19,16,English,WIC,Myrtle Wyckoff Greenmarket,Brooklyn
+1533056,414406,08/05/2024,0,18,16,English,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533057,414408,08/05/2024,0,9,5,Traditional Chinese,EBT/SNAP,Harlem Meer,Manhattan
+1533058,414409,08/05/2024,0,12,8,English,,St. Mary's Park,Bronx
+1533059,414411,08/05/2024,1,7,4,English,,Tremont,Bronx
+1533060,414412,08/05/2024,0,18,11,English,,Astoria Greenmarket,Queens
+1533061,414401,08/12/2024,0,11,6,Bengali,EBT/SNAP,Corona Plaza,Queens
+1533062,414403,08/12/2024,0,13,8,English,EBT/SNAP,Gouverneur Hospital,Manhattan
+1533063,414405,08/12/2024,0,8,5,Traditional Chinese,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533064,414406,08/12/2024,0,8,5,Simplified Chinese,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533065,414407,08/12/2024,0,18,13,English,EBT/SNAP,Grand Army Plaza,Brooklyn
+1533066,414408,08/12/2024,0,20,14,English,,Harlem Meer,Manhattan
+1533067,414410,08/12/2024,0,13,9,Traditional Chinese,WIC,Sunset Park,Brooklyn
+1533068,414412,08/12/2024,0,19,12,Traditional Chinese,WIC,Astoria Greenmarket,Queens
+1533069,414400,08/19/2024,0,15,10,Bengali,EBT/SNAP,Bronx Borough Hall,Bronx
+1533070,414401,08/19/2024,0,10,7,Spanish,WIC,Corona Plaza,Queens
+1533071,414402,08/19/2024,0,15,11,Bengali,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533072,414403,08/19/2024,1,13,10,English,,Gouverneur Hospital,Manhattan
+1533073,414404,08/19/2024,0,13,11,English,WIC,La Familia,Bronx
+1533074,414405,08/19/2024,0,21,17,Spanish,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533075,414406,08/19/2024,0,1,0,Simplified Chinese,WIC,Jackson Heights Greenmarket,Queens
+1533076,414407,08/19/2024,0,18,12,English,WIC,Grand Army Plaza,Brooklyn
+1533077,414408,08/19/2024,0,14,9,Spanish,EBT/SNAP,Harlem Meer,Manhattan
+1533078,414409,08/19/2024,0,12,9,Spanish,,St. Mary's Park,Bronx
+1533079,414411,08/19/2024,0,14,9,English,,Tremont,Bronx
+1533080,414412,08/19/2024,0,4,3,Bengali,EBT/SNAP,Astoria Greenmarket,Queens
+1533081,414400,08/26/2024,0,12,8,Spanish,EBT/SNAP,Bronx Borough Hall,Bronx
+1533082,414401,08/26/2024,1,7,5,Simplified Chinese,,Corona Plaza,Queens
+1533083,414404,08/26/2024,0,21,18,Spanish,EBT/SNAP,La Familia,Bronx
+1533084,414405,08/26/2024,0,11,9,Spanish,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533085,414406,08/26/2024,0,9,7,Traditional Chinese,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533086,414407,08/26/2024,0,11,8,Simplified Chinese,EBT/SNAP,Grand Army Plaza,Brooklyn
+1533087,414409,08/26/2024,0,18,12,English,WIC,St. Mary's Park,Bronx
+1533088,414410,08/26/2024,0,15,12,English,,Sunset Park,Brooklyn
+1533089,414411,08/26/2024,0,11,7,Simplified Chinese,,Tremont,Bronx
+1533090,414412,08/26/2024,0,16,13,Spanish,,Astoria Greenmarket,Queens
+1533091,414400,09/02/2024,0,14,10,English,EBT/SNAP,Bronx Borough Hall,Bronx
+1533092,414401,09/02/2024,0,18,16,English,EBT/SNAP,Corona Plaza,Queens
+1533093,414402,09/02/2024,0,10,7,English,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533094,414403,09/02/2024,0,12,10,Simplified Chinese,EBT/SNAP,Gouverneur Hospital,Manhattan
+1533095,414404,09/02/2024,0,12,7,English,EBT/SNAP,La Familia,Bronx
+1533096,414405,09/02/2024,0,6,5,Traditional Chinese,,Myrtle Wyckoff Greenmarket,Brooklyn
+1533097,414407,09/02/2024,0,15,9,English,EBT/SNAP,Grand Army Plaza,Brooklyn
+1533098,414408,09/02/2024,0,15,10,Spanish,WIC,Harlem Meer,Manhattan
+1533099,414409,09/02/2024,0,14,12,Simplified Chinese,WIC,St. Mary's Park,Bronx
+1533100,414411,09/02/2024,0,12,7,Traditional Chinese,EBT/SNAP,Tremont,Bronx
+1533101,414412,09/02/2024,0,6,4,Bengali,EBT/SNAP,Astoria Greenmarket,Queens
+1533102,414400,09/09/2024,1,3,1,English,,Bronx Borough Hall,Bronx
+1533103,414401,09/09/2024,0,12,8,Spanish,WIC,Corona Plaza,Queens
+1533104,414402,09/09/2024,0,9,7,English,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533105,414404,09/09/2024,1,5,3,Spanish,,La Familia,Bronx
+1533106,414406,09/09/2024,0,16,10,Spanish,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533107,414407,09/09/2024,0,23,20,Spanish,,Grand Army Plaza,Brooklyn
+1533108,414409,09/09/2024,1,6,4,Spanish,,St. Mary's Park,Bronx
+1533109,414410,09/09/2024,0,15,9,English,EBT/SNAP,Sunset Park,Brooklyn
+1533110,414411,09/09/2024,0,13,10,Bengali,EBT/SNAP,Tremont,Bronx
+1533111,414412,09/09/2024,0,4,3,English,EBT/SNAP,Astoria Greenmarket,Queens
+1533112,414400,09/16/2024,0,13,10,English,EBT/SNAP,Bronx Borough Hall,Bronx
+1533113,414402,09/16/2024,0,14,9,Spanish,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533114,414403,09/16/2024,0,26,18,Spanish,WIC,Gouverneur Hospital,Manhattan
+1533115,414405,09/16/2024,0,13,10,English,,Myrtle Wyckoff Greenmarket,Brooklyn
+1533116,414406,09/16/2024,0,15,10,English,EBT/SNAP,Jackson Heights Greenmarket,Queens
+1533117,414407,09/16/2024,0,13,10,Bengali,,Grand Army Plaza,Brooklyn
+1533118,414408,09/16/2024,0,8,5,Spanish,WIC,Harlem Meer,Manhattan
+1533119,414409,09/16/2024,0,19,14,Spanish,WIC,St. Mary's Park,Bronx
+1533120,414410,09/16/2024,0,17,12,English,EBT/SNAP,Sunset Park,Brooklyn
+1533121,414411,09/16/2024,0,17,15,Spanish,EBT/SNAP,Tremont,Bronx
+1533122,414412,09/16/2024,0,9,7,Traditional Chinese,WIC,Astoria Greenmarket,Queens
+1533123,414402,09/23/2024,0,21,14,Spanish,EBT/SNAP,Cypress Hills Youthmarket,Brooklyn
+1533124,414403,09/23/2024,0,6,4,Spanish,EBT/SNAP,Gouverneur Hospital,Manhattan
+1533125,414404,09/23/2024,0,16,10,English,WIC,La Familia,Bronx
+1533126,414405,09/23/2024,0,24,15,English,EBT/SNAP,Myrtle Wyckoff Greenmarket,Brooklyn
+1533127,414406,09/23/2024,1,1,0,Spanish,,Jackson Heights Greenmarket,Queens
+1533128,414407,09/23/2024,0,11,9,Traditional Chinese,,Grand Army Plaza,Brooklyn
+1533129,414409,09/23/2024,0,14,11,Bengali,EBT/SNAP,St. Mary's Park,Bronx
+1533130,414410,09/23/2024,0,11,10,English,EBT/SNAP,Sunset Park,Brooklyn
+1533131,414411,09/23/2024,0,6,4,Spanish,EBT/SNAP,Tremont,Bronx
+1533132,414412,09/23/2024,0,14,8,English,,Astoria Greenmarket,Queens
