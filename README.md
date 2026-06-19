@@ -29,38 +29,3 @@ Then open practice_queries.sql and type the queries by hand.
 
 Phases in order. One phase at a time. A finished Phase 1 beats four
 started phases. The guide has the full path.
-
-
-
-## Dashboard
-
-Built with Streamlit, reading live from sfm.db.
-
-
-
-![Dashboard overview](Screenshot_20260619-163924-display-12.png)
-
-
-
-
-![Participants by borough](Screenshot_20260619-163928-display-12.png)
-
-
-
-
-![Sessions by month](Screenshot_20260619-163931-display-12.png)
-
-
-
-
-![In-person vs virtual](Screenshot_20260619-163932-display-12.png)
-
-
-
-
-![Surveys by language](Screenshot_20260619-163934-display-12.png)
-
-
-
-
-![Session records](Screenshot_20260619-163936-display-12.png)
