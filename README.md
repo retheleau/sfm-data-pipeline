@@ -1,38 +1,65 @@
-# SFM Data Pipeline Project
+# SFM Data Pipeline — Community Nutrition Program
 
-One project, three lanes: Data Analyst (Excel/Power BI) -> Data Engineer
-(Python ETL -> SQLite) -> SysAdmin/Cloud (cron + GCP, later).
+An end-to-end data pipeline that recreates the monthly reporting workflow I ran at the **NYC Department of Health, Bureau of Chronic Disease Prevention** for a SNAP-Ed community nutrition program (Stellar Farmers Markets / PEARS).
 
-It recreates the real monthly reporting workflow from the NYC Bureau of
-Chronic Disease Prevention  using mock data
-shaped exactly like the real export.
+It takes raw session data, cleans and loads it into a SQL database, analyzes participation across NYC boroughs, and surfaces the results in a live dashboard — the same reporting I did by hand at the Bureau, rebuilt as an automated pipeline.
 
-## What's in this folder
+**[▶ View the live dashboard](https://randy-sfm-dashboard.streamlit.app)**
 
-| File                     | What it is                                          |
-|--------------------------|-----------------------------------------------------|
-| SFM_Project_Guide.pdf    | THE GUIDE. Read Phase 0 first. Do phases in order.  |
-| SFM_Practice_Data.xlsx   | 2-tab Excel file (mirrors the PEARS export) - Phase 1 |
-| SFM_Practice_Data.csv    | Flat version for the pipeline + Power BI - Phases 2-4 |
-| load_sfm.py              | The ETL pipeline script (CSV -> clean -> SQLite)    |
-| practice_queries.sql     | 12 SQL exercises against your own database          |
+---
 
-## Quick start (Phase 2, on your Debian terminal)
+## What it does
 
-    pip install pandas --break-system-packages   # if not installed
-    python3 load_sfm.py                           # builds sfm.db
-    sqlite3 sfm.db                                # query your database
+The pipeline moves data through three stages:
 
-Then open practice_queries.sql and type the queries by hand.
+1. **Extract & clean (Python ETL)** — `load_sfm.py` reads the raw CSV, fixes date formatting, adds a month column, and converts blanks to NULL, then loads it into a SQLite database (`sfm.db`).
+2. **Analyze (SQL)** — 12 SQL queries in `practice_queries.sql` answer program questions: participation by site, reach by month, in-person vs. virtual, language breakdowns, and EBT/WIC usage.
+3. **Visualize (Streamlit)** — a live dashboard reads directly from the database and displays key metrics and charts for a non-technical audience.
 
-## The rule
+The dataset mirrors a real program season: 13 sites, 132 sessions, and 1,572 participants across July–September.
 
-Phases in order. One phase at a time. A finished Phase 1 beats four
-started phases. The guide has the full path.
+---
 
-## Live Dashboard
+## What's in this repo
 
-🔗 **[View the live dashboard](https://randy-sfm-dashboard.streamlit.app)**
+| File | What it is |
+|------|-----------|
+| `load_sfm.py` | The ETL pipeline — reads the CSV, cleans it, loads it into SQLite |
+| `app.py` | The Streamlit dashboard that reads from the database |
+| `practice_queries.sql` | 12 SQL analysis queries against the database |
+| `sfm.db` | The SQLite database the pipeline builds |
+| `requirements.txt` | Python dependencies |
+| `SFM_Practice_Data.csv` | Source data (shaped like the real program export) |
+
+---
+
+## Tech used
+
+**Python** (pandas) · **SQL** (SQLite) · **Streamlit** · **Git**
+
+---
+
+## Run it locally
+
+```bash
+pip install -r requirements.txt
+python3 load_sfm.py      # builds sfm.db from the CSV
+streamlit run app.py     # launches the dashboard
+```
+
+Or query the database directly:
+
+```bash
+sqlite3 sfm.db
+```
+
+---
+
+## Why I built it
+
+This recreates real public-health reporting work as a portfolio piece: cleaning messy program data, joining and aggregating it in SQL, and presenting it clearly for decision-makers. It combines my background in public-health data operations with a data-analytics workflow — Python, SQL, and dashboarding — end to end.
+
+
 
 Built with Streamlit, reading live from sfm.db.
 
